@@ -1,0 +1,79 @@
+.logo {
+    float: left;
+    height: 8%;
+    width: 8%;
+    padding: 30px 30px;
+}
+.head-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+
+.header-main {
+    position:absolute;
+    display: contents;
+    height: 100px;
+    width: 500px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #4E9BB9;
+    text-align: center;
+    padding: 25px 30px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: lightgray;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    color: lightgray;
+}
+
+/* The hero image */
+.hero-image {
+    width: 50%;
+    height: 50%;
+    float: right;
+    padding-right: 10%;
+}
+
+.hero-text {
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate()
+}
+
+h1 {
+    font-family: "Playfair Display";
+    font-size: 60px;
+    color: #4E9BB9;
+    margin: 0;
+}
+
+h3 {
+    font-family: "Open Sans";
+    font-size 10px;
+    font-weight: 300;
+    color: #4E9BB9;
+    font-kerning: auto;
+    margin: 0;
+}
+
+h2 {
+    font-family: "Open Sans";
+    font-size: 30px;
+    color: #4E9BB9;
+    margin:0
+}
